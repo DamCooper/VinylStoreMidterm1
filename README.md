@@ -6,23 +6,15 @@ In addition to our selection of vinyl records, we also offer a variety of featur
 We pride ourselves on providing top-notch customer service and want to ensure that your experience with us is always a positive one. So, whether you're a seasoned vinyl collector or just getting started, we hope you'll find something you love on our website. Happy shopping!
 
 Team members description, contributions of each team member:
+
 Myrzabekov Farkhat:
-Created the database and implemented the struct Record to store all main info about vinyl recordings
-
-Worked on rendering (passing) the data to templates
-
+Created the database and implemented the struct Record to store all main info about vinyl recordings, Worked on rendering (passing) the data to templates
 Added two new fields to the records database (sale and preorder)
-
 Worked on website design by adding a 3D model iframe
-
 Implemented registration and login/logout functionality for users
-
 Added sessions table to db to keep logged users in their accounts using the "github.com/gorilla/sessions" library
-
 Created a template to display a user's wishlist using a table
-
 Added an HTML page for adding a new vinyl record to a database
-
 Parsed form data for the new record's title, artist, genre, and price, and also retrieved the image file
 
 
