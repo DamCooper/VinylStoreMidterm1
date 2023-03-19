@@ -8,24 +8,41 @@ We pride ourselves on providing top-notch customer service and want to ensure th
 Team members description, contributions of each team member:
 Myrzabekov Farkhat:
 Created the database and implemented the struct Record to store all main info about vinyl recordings
+
 Worked on rendering (passing) the data to templates
+
 Added two new fields to the records database (sale and preorder)
+
 Worked on website design by adding a 3D model iframe
+
 Implemented registration and login/logout functionality for users
+
 Added sessions table to db to keep logged users in their accounts using the "github.com/gorilla/sessions" library
+
 Created a template to display a user's wishlist using a table
+
 Added an HTML page for adding a new vinyl record to a database
+
 Parsed form data for the new record's title, artist, genre, and price, and also retrieved the image file
+
 
 Nashkenova Ingkar:
 Designed project structure, especially how to represent vinyls list
+
 Implemented sorting system based on different fields such as price and author
+
 Added functionality to search vinyls by keywords
+
 Redesigned searching and filtering using two forms on a web page
+
 Created a go handler to apply filters and search to display data based on queries
+
 Processed the uploaded image for a new added record by creating a unique filename and saving the image file to the server
+
 Added a function to insert a new wishlist item into the database using the user's ID and the record ID obtained from the request form data
+
 Completed the rating system, allowing users to rate vinyl records and displaying the ratings in the UI
+
 
 Explanation how to run the code:
 open command line in project folder and type "go run main.go", then go to page http://localhost:8080/
