@@ -62,6 +62,11 @@ function that handles adding a new record to a database. It parses the HTTP requ
 function that displays the wishlist of a logged-in user. It retrieves the user's ID from a session cookie, queries the database to retrieve the records in the wishlist, and displays them using a template.
 ![image](https://user-images.githubusercontent.com/91084290/226188950-34fea145-88f8-4d7a-83bb-70627cb2a5e7.png)
 
+![image](https://user-images.githubusercontent.com/91084290/226189136-18bfbaf6-f0ac-4fcc-8ba0-94fe9d0d5fb6.png)
+func to make adding ratings for vinyl records. It parses the form data for the record ID and the rating, updates the record's total rating and count in the database, calculates the new rating, and redirects the user back to the homepage.
+![image](https://user-images.githubusercontent.com/91084290/226189186-627a58be-bda5-48e0-9915-82c34c69ff24.png)
+
+
 
 
 
